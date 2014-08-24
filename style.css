@@ -1,4 +1,3 @@
-/* FLY OUT NAVIGATION */
 
 
 * {
@@ -19,11 +18,20 @@
     margin-left: 50px;
 }
 
+#perspective .container {
+	background-color: #262626;
+}
+
 /* typggraphy */
 
 p, ul, a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
+}
+
+ul li {
+	list-style-type: none;
+	line-height: 50px;
 }
 
 @font-face { font-family: 'FontAwesome'; }
@@ -57,7 +65,7 @@ p, ul, a {
 	background-color: #000;
 }
 
-.first .hello, .first .bio, .third .twitter, footer .year, footer .location {
+.first .hello, .first .bio, .third .twitter, footer .year, footer .location, .third .video {
 	padding: 35px;
 }
 
