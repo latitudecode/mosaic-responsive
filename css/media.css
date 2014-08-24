@@ -4,13 +4,29 @@
     top: 0px;
 }
 
+.menu i {
+	top: 3%;
+}
+
+.first .columns {
+	height: 60%;
+}
+
+#instafeed img {
+	height: 100%;
+}
+
+.first .columns p {
+	font-size: 12px;
+}
+
 }
 
 
 
+/* first breakpoint 720px and below */
 @media all and (max-width: 720px) and (min-width: 100px) {
 
-/* first section */
 
 .stage {
     top: 0px;
@@ -45,4 +61,41 @@
 }
 
 
+
 }
+
+/* mobile baby! */
+
+@media all and (max-width: 400px) and (min-width: 10px) {
+
+.first .columns .socialize i {
+	margin-top: 20px;
+	padding: 34px 25px;
+}
+
+.first .columns {
+	height: 100%;
+}
+
+.first .columns p {
+	font-size: 12px;
+}
+
+#instafeed img {
+	height: 100%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
