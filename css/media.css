@@ -1,0 +1,48 @@
+@media all and (max-width: 1000px) and (min-width: 100px) {
+
+.stage {
+    top: 0px;
+}
+
+}
+
+
+
+@media all and (max-width: 720px) and (min-width: 100px) {
+
+/* first section */
+
+.stage {
+    top: 0px;
+}
+
+.first .hello {
+	display: none;
+}
+
+.first .small-5 {
+	width: 100%;
+}
+
+.first .columns {
+	height: 70%;
+}
+
+.third .columns {
+	height: 300px;
+}
+
+.third .twitter {
+	height: 300px;
+}
+
+.small-4, .small-5, .small-6, .small-7, .small-8, .small-9, .small-10 {
+	width: 100%;
+} 
+
+.video {
+	display: none;
+}
+
+
+}
