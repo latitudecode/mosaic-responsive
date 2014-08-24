@@ -129,14 +129,14 @@ top: 40%;
 /* socialize */
 
 .first .columns .socialize {
-	height: 10%;	
+	height: 100px;	
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
 }
 
 .first .columns .socialize i {
-	padding: 25px 27px;
+	padding: 42px 45px;
 	background-color: #000;
 	margin: 1px;
 	font-family: 'FontAwesome';
