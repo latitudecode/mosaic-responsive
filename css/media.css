@@ -4,13 +4,17 @@
     top: 0px;
 }
 
+.menu i {
+	top: 3%;
+}
+
 }
 
 
 
+/* first breakpoint 720px and below */
 @media all and (max-width: 720px) and (min-width: 100px) {
 
-/* first section */
 
 .stage {
     top: 0px;
@@ -45,4 +49,31 @@
 }
 
 
+
 }
+
+/* mobile baby! */
+
+@media all and (max-width: 400px) and (min-width: 10px) {
+
+.first .columns .socialize i {
+	margin: 20px 2px 0px 0px;
+	padding: 34px 43px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

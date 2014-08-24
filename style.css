@@ -11,7 +11,8 @@
 .stage {
     margin: 0 auto;
     position: relative;
-    top: 200px;
+    top: 90px;
+    margin-left: 50px;
 }
 
 /* typggraphy */
@@ -20,6 +21,8 @@ p, ul, a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 }
+
+@font-face { font-family: 'FontAwesome'; }
 
 /* columns */
 
@@ -125,17 +128,40 @@ top: 40%;
 
 /* socialize */
 
-
-ul li {
-    background-color: black;
-    display: inline;
-    height: 25px;
-    padding: 25px 30px 25px 33px;
-}
-
-.socialize {
+.first .columns .socialize {
+	height: 100px;	
 	position: absolute;
 	bottom: 0px;
+	left: 0px;
+}
+
+.first .columns .socialize i {
+	padding: 42px 45px;
+	background-color: #000;
+	margin: 1px;
+	font-family: 'FontAwesome';
+}
+
+.row.socialize {
+	margin: 0px;
+}
+
+
+/* navigation */
+
+.menu {
+	height: 100%;
+	position: fixed;
+	width: 50px;
+	background-color: rgba(1, 1, 1, .9);
+	float: left;
+	z-index: 99999999999;
+}
+
+.menu i {
+	position: relative;
+	top: 50%;
+	padding-left: 15px;
 }
 
 
