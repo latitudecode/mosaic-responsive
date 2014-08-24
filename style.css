@@ -123,3 +123,19 @@ top: 40%;
 }
 
 
+/* socialize */
+
+
+ul li {
+    background-color: black;
+    display: inline;
+    height: 25px;
+    padding: 25px 30px 25px 33px;
+}
+
+.socialize {
+	position: absolute;
+	bottom: 0px;
+}
+
+
