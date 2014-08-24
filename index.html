@@ -5,9 +5,14 @@
 	<link rel="stylesheet" href="css/foundation.css" type="text/css" />
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" />
 
+	<meta name="viewport" content="width=device-width" />
+
+
 </head>
 
 <body>
+
+<div class="backstage"> <!-- begin backstage -->
 
 		<!-- 
 
@@ -24,49 +29,71 @@
 		third row:
 		height1=400px 
 		height1=400px 
-		total=800px		
+		total=800px 		
 		width1=600px
 		width2=400px
 
 		-->
 
+
+
 	<div class="stage"> <!-- the wrapper of all the content -->
 
-		<div class="row"> <!-- bio row -->
+		<div class="row first"> <!-- bio row -->
 			
-			<div class="small-8 columns"></div> <!-- bio intro -->
+			<div class="large-8 columns hello">small-8 columns</div> <!-- bio intro -->
 			
-			<div class="small-4 columns"></div> <!-- face and what I do -->
+			<div class="large-4 columns bio">small-4 columns</div> <!-- face and what I do -->
 
 		</div> <!-- end of bio row -->
 
-		<div class="row"> <!-- portfolio piece and instagram row -->
+		<div class="row second"> <!-- portfolio piece and instagram row -->
 
-			<div class="small-2 columns"></div> <!-- instaslam -->
+			<div class="large-4 columns instagram"><!-- start instafeed -->
 
-			<div class="small-10 columns"></div> <!-- portfolio piece -->
+				<img src="images/instagram.jpg" /> <!-- instagffed area -->
+
+			</div> <!-- instaslam -->
+
+			<div class="large-8 columns feature-small"> <!-- start feature small -->
+
+				<img src="images/lily-portfolio.jpg" />
+
+			</div> <!-- end feature small -->
 
 		</div> <!-- end of portfolio piece instagram row -->
 
-		<div class="row"> <!-- tumblr, twitter and video row -->
+		<div class="row third"> <!-- tumblr, twitter and video row -->
 
-			<div class="small-8 columns"></div> <!-- tumblr -->
+			<div class="large-8 columns feature-big"> <!-- begin tum -->
 
-			<div class="small-4 columns"></div> <!-- twitter and video -->
+				<img src="images/tumblr.jpg" />
+
+			</div> <!-- end tumblr -->
+
+			<div class="large-4 columns ">
+
+				<div class="twitter"> <!-- tweetz --></div>
+
+				<div class="video"> <!-- video feed --></div>
+
+			</div> <!-- twitter and video -->
 
 		</div> <!-- end to tumblr and twitter row -->
 
 		<footer> <!-- footer -->
 
-			<div class="row"> 
+			<div class="row fourth"> 
 
-				<div class="small-12 columns"></div> <!-- footer content -->
+				<div class="large-12 columns">small-12 columns</div> <!-- footer content -->
 
 			</div>	
 
 		</footer> <!-- end footer -->
 
 	</div> <!-- end of wrapp of all the content -->
+
+</div> <!-- end backstage -->
 
 </body>
 </html>

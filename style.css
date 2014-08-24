@@ -1,0 +1,58 @@
+.backstage {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.stage {
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+.first .columns {
+	height: 600px;
+}
+
+.second .columns {
+	height: 320px;
+}
+
+.third .columns {
+	height: 800px;
+}
+
+.fourth .columns {
+	height: 100px;
+}
+
+
+
+.hello {
+	background-color: #000;
+}
+
+.bio {
+	background-color: #2b2b2b;
+}
+
+.instagram {
+
+}
+
+.feature-big {
+
+}
+
+.feature-small {
+
+}
+
+.twitter {
+
+}
+
+.video {
+
+}
