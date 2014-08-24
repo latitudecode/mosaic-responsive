@@ -50,9 +50,13 @@
 }
 
 .twitter {
-
+	height: 400px;
+	width: 400px;
+	background-color: #000;
 }
 
 .video {
-
+	height: 400px;
+	width: 400px;
+	background-color: #2b2b2b;	
 }
