@@ -37,6 +37,9 @@ p, ul, a {
 
 .footer .columns {
 	height: 90px;
+}
+
+.footer {
 	background-color: #2b2b2b;
 }
 
@@ -69,18 +72,18 @@ p, ul, a {
 
 
 .instagram {
-
+	background-image: url('images/instagram.jpg');
 }
 
 .feature-big {
-	background-image: url(images/tumblr.jpg);
+	background-image: url('images/tumblr.jpg');
 	height: auto;
 	width: 100%;
 }
 
 
 .feature-small {
-
+	background-image: url('images/lily-portfolio.jpg');
 }
 
 .twitter {
@@ -119,8 +122,4 @@ text-align: center;
 top: 40%;
 }
 
-.my-project .hover-effect {
-	width: 95%;
-	height: 90%;
-	top: 5%;
-}
+
