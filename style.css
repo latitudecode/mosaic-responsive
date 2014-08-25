@@ -73,7 +73,7 @@ ul li {
 	background-color: #000;
 }
 
-.first .hello, .first .bio, .third .twitter, footer .year, footer .location, .third .video {
+.first .hello, .first .bio, .third .twitter, footer .year, footer .location, .third .quote {
 	padding: 35px;
 }
 
@@ -115,11 +115,23 @@ ul li {
 	background-color: #000;
 }
 
-.video {
+.third .twitter .fa-twitter {
+    bottom: 35px;
+    position: absolute;
+}
+
+.third .quote .author {
+	position: absolute;
+	bottom: 53%;
+}
+
+.quote {
 	height: 400px;
 	width: 100%;
 	background-color: #2b2b2b;	
 }
+
+
 
 /* hover effect */
 
@@ -183,6 +195,10 @@ top: 40%;
 .menu i {
 	position: relative;
 	top: 50%;
+}
+
+button {
+	background: none;
 }
 
 /* instafeed */

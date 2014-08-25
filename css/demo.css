@@ -137,7 +137,7 @@ body {
 .codrops-demos a,
 button {
 	border: none;
-	padding: 5px;
+	padding: 3px 16px 16px 16px;
 	background-color: none;
 	color: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
