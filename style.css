@@ -18,8 +18,8 @@ body {
 .stage {
     margin: 0 auto;
     position: relative;
-    top: 90px;
     margin-left: 50px;
+    padding-top: 110px;
 }
 
 #perspective .container, footer {

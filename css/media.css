@@ -1,7 +1,7 @@
 @media all and (max-width: 1000px) and (min-width: 100px) {
 
 .stage {
-    top: 0px;
+    padding: 0px;
 }
 
 .menu i {
