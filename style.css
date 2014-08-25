@@ -5,6 +5,10 @@
 
 }
 
+body { 
+	background-color: #262626;
+}
+
 .backstage {
     height: 100%;
     position: relative;
@@ -18,11 +22,15 @@
     margin-left: 50px;
 }
 
-#perspective .container {
+#perspective .container, footer {
 	background-color: #262626;
 }
 
 /* typggraphy */
+
+a {
+	text-decoration: none;
+}
 
 p, ul, a {
 	font-family: 'Open Sans', sans-serif;
@@ -143,7 +151,7 @@ top: 40%;
 /* socialize */
 
 .first .columns .socialize {
-	height: 100px;	
+	height: 65px;	
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
@@ -151,7 +159,7 @@ top: 40%;
 
 .first .columns .socialize i {
 	padding: 23px 28px;
-	background-color: #000;
+	/* background-color: #000; */
 	margin: 1px;
 	font-family: 'FontAwesome';
 }
@@ -164,7 +172,7 @@ top: 40%;
 /* navigation */
 
 .menu {
-	height: 100%;
+	height: 106%;
 	position: fixed;
 	width: 50px;
 	background-color: rgba(1, 1, 1, .9);
@@ -175,7 +183,6 @@ top: 40%;
 .menu i {
 	position: relative;
 	top: 50%;
-	padding-left: 15px;
 }
 
 /* instafeed */

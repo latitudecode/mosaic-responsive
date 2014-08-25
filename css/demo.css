@@ -15,24 +15,10 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-	background: #ddd;
-	color: #5a5350;
-	font-weight: 300;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 
-a {
-	text-decoration: none;
-	color: #ed8151;
-	outline: none;
-}
-
-a:hover, a:focus {
-	color: #e86a32;
-	outline: none;
-}
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
@@ -193,21 +179,7 @@ button:active {
 
 /* added */
 
-/* navigation */
 
-.menu {
-	height: 100%;
-	position: fixed;
-	width: 50px;
-	background-color: rgba(1, 1, 1, .9);
-	float: left;
-	z-index: 99999999999;
-}
-
-.menu i {
-	position: relative;
-	top: 50%;
-}
 
 /* end added */
 
