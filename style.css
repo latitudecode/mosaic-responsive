@@ -58,6 +58,8 @@ ul li {
 	height: 800px;
 }
 
+
+
 .footer .columns {
 	height: 90px;
 }
@@ -205,5 +207,29 @@ button {
 
 #instafeed img {
 	width: 100%;
+}
+
+/* list page */
+
+.link {
+	text-align: center;
+	position: relative;
+	top: 50%;
+}
+
+
+.first-list .columns p {
+	padding: 100px;
+}
+
+.columns a {
+	color: #fff;
+}
+
+
+
+.first-list .columns {
+	background-color: #2b2b2b;
+	border-bottom: 1px solid #222222;
 }
 
