@@ -138,6 +138,17 @@
     padding: 45px;
 }
 
+
+
+.menu {
+	height: 118%;
+}
+
+.first .columns .socialize i {
+    margin-top: 0;
+    padding: 15px 25px;
+}
+
 }
 
 
