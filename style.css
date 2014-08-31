@@ -226,7 +226,7 @@ top: 40%;
 .menu {
 	height: 106%;
 	position: fixed;
-	width: 50px;
+	width: 49px;
 	background-color: rgba(1, 1, 1, .9);
 	float: left;
 	z-index: 99999999999;

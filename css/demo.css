@@ -136,19 +136,19 @@ body {
 
 .codrops-demos a,
 button {
-	border: none;
-	padding: 3px 16px 16px 16px;
-	background-color: none;
-	color: #fff;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
-	font-size: 1em;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	cursor: pointer;
-	display: inline-block;
-	border-radius: 2px;
-	font-weight: 400;
-	outline: none;
+    background-color: #181818;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Lato',Calibri,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    outline: medium none;
+    padding: 18px;
+    position: relative;
+    text-transform: uppercase;
+    top: -15px;
 }
 
 .codrops-demos a:hover,
