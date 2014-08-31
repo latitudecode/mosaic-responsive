@@ -29,6 +29,10 @@
 	font-size: 18px;
 }
 
+.first-list h2 {
+    padding-left: 25px;
+}
+
 }
 
 
@@ -77,6 +81,10 @@
 	margin: 0 0 8px !important;
 }
 
+.first-list h2 {
+    padding-left: 25px;
+}
+
 }
 
 /* mobile baby! */
@@ -119,6 +127,15 @@
 
 .outer-nav a {
 	margin: 0 0 8px !important;
+}
+
+.first-list h2 {
+    text-align: center;
+    width: 90%;
+}
+
+.first-list .columns p {
+    padding: 45px;
 }
 
 }
